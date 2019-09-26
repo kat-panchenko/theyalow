@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Lucida Sans";
+  src: url("fonts/LSANSI.TTF") format("ttf");
+}
+
+@font-face {
+  font-family: "Segoe WP N";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/SegoeWPN.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.head_wrapper {
+  background: url("images/back1.jpg") center no-repeat;
+  height: 565px;
+  display: flex;
+  padding-top: 28px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 56px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  margin-right: .5rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Lucida Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.arrow {
+  width: 32px;
+  height: 57px;
+  align-self: center;
+}
+
+.navbar {
+  background-color: #f5c506;
+  height: 54px;
+  line-height: 3;
+  box-shadow: -6px -6px 0px 0px rgba(245, 197, 6, 0.4), -12px -12px 0px 0px rgba(245, 197, 6, 0.2);
+}
+
+.navbar a {
+  color: #9b7d08;
+  font-family: "Segoe WP N", sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  text-decoration: none;
+  background: #f5c506;
+  padding: 15px;
+  border-right: 2px solid #9b7d08;
+}
+
+.navbar img {
+  margin: 0 10px;
+}
+
+.video_holder {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video_title h2 {
+  text-transform: uppercase;
+  font-family: "ASAP", sans-serif;
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 400;
+}
+
+.video_title .yellow {
+  color: #f5c506;
+}
+
+.first_ar {
+  position: absolute;
+  z-index: 20;
+  left: -138px;
+  bottom: 190px;
+}
+
+.second_ar {
+  position: absolute;
+  z-index: 20;
+  right: -138px;
+  bottom: 190px;
+}
