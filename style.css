@@ -141,9 +141,14 @@ main {
 }
 
 .info {
-  padding: 40px;
+  padding: 35px;
   font-family: "Segoe UI Light", sans-serif;
   font-size: 27px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.video_blog {
+  background: url("images/back3.jpg")  no-repeat;
+  height: 510px;
 }
