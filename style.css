@@ -42,6 +42,7 @@ h3 {
   height: 565px;
   display: flex;
   padding-top: 28px;
+  box-shadow: inset 0 -2px 3px 0 rgba(0, 0, 0, 0.6);
 }
 
 header {
@@ -128,22 +129,28 @@ h1 {
   bottom: 190px;
 }
 
-main {
+.background {
   background: url("images/back2.jpg") center no-repeat;
   height: 212px;
-  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.5), 0 -3px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .block_about {
   display: flex;
-  align-items: baseline;
   justify-content: space-around;
 }
 
+.block_about .info:nth-child(odd) {
+  border-right: 1px solid #b8b8b8;
+  border-left: 1px solid #b8b8b8;
+  padding-top: 48px;
+}
+
 .info {
-  padding: 35px;
+  padding: 35px 0;
+  width: 340px;
+
   font-family: "Segoe UI Light", sans-serif;
-  font-size: 27px;
+  font-size: 26px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -151,4 +158,5 @@ main {
 .video_blog {
   background: url("images/back3.jpg")  no-repeat;
   height: 510px;
+  box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.6);
 }
